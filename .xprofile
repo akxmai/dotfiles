@@ -1,0 +1,9 @@
+xrandr --output DisplayPort-2 --auto --right-of HDMI-A-0
+xrandr --output DisplayPort-2 --mode 2560x1440 --rate 240
+xrandr --output HDMI-A-0 --mode 1920x1080 --rate 75
+
+pulseaudio -k
+pasystray &
+feh --bg-scale ~/Pictures/wall/gruv.jpg
+modprobe v4l2loopback exclusive_caps=1 card_label='OBS Virtual Camera'
+xrdb ~/.Xresources
