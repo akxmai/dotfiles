@@ -17,8 +17,8 @@ compinit
 # End of lines added by compinstall
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
-source /usr/share/zsh/zsh-config
-source /usr/share/zsh/zsh-prompt
+source ~/.zsh/zsh-config
+source ~/.zsh/zsh-prompt
 eval "$(zoxide init --cmd cd zsh)"
 alias vim=nvim
 
