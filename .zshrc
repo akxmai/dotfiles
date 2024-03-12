@@ -15,7 +15,6 @@ zstyle :compinstall filename '/home/daniil/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 source ~/.zsh/zsh-config
 source ~/.zsh/zsh-prompt
