@@ -16,7 +16,6 @@ WINIT_X11_SCALE_FACTOR = "1.0"
 program = "zsh"
 
 [window]
-decorations = "none"
 dynamic_title = true
 opacity = 1.0
 startup_mode = "Windowed"
