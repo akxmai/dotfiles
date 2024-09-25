@@ -20,7 +20,10 @@ source ~/.zsh/zsh-config
 source ~/.zsh/zsh-prompt
 eval "$(zoxide init --cmd cd zsh)"
 alias vim=nvim
-
+alias lsa="ls -laF"
+alias cat=bat
+alias man=tldr
+alias stress="ffmpeg -y -f rawvideo -video_size 1920x1080 -pixel_format yuv420p -framerate 60 -i /dev/urandom -c:v libx265 -preset placebo -f matroska /dev/null"
 # now load zsh-syntax-highlighting plugin
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
